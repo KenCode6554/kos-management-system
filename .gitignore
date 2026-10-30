@@ -1,0 +1,26 @@
+# Dependencies (downloaded by npm)
+/node_modules
+
+# Next.js build output (generated, rebuilt any time)
+/.next/
+/out/
+/build
+
+# Environment variables (contain SECRET keys)
+.env*
+!.env.example
+
+# TypeScript generated files
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+npm-debug.log*
+
+# Operating system junk
+.DS_Store
+Thumbs.db
+
+# Tool folders
+.netlify
+supabase/.temp/
